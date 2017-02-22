@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #308FEA;
+}
+
+
+
+.logo{
+	height: 35px;
+	display:block;
+	margin:auto;
+	margin-top: 40px;
+}
+.container {
+
+	background-color: white;
+	width :400px;
+	padding: 40px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.sign-up label{
+	display: block;
+	text-align: left;
+	font-size: 20px;
+		
+}
+
+.sign-up input, .sign-up button{
+	display: block;
+	width: 320px;
+	height: 55px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.sign-up button{
+	background-color: #30CE71;		
+}
+
+.sign-up button:hover{
+	background-color: #4CAF50;
+}
+
+.small{
+	margin: auto;
+	text-align: center;
+}
+
+a.forgot{
+	color: gray;
+}
+
+.sign-up h1{
+	color: dimgray;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	color:white;
+}
+
+p a{
+	color:white;
+}
+

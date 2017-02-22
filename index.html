@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Analog Sea</title>
+	<meta charset="utf-8" name = "description" content="This is a v1 prototype for Analog Sea, a cloud-computing startup.">
+	<!-- styles -->
+	<link rel="stylesheet" type= "text/css" href="main.css" />
+</head>
+
+<body>
+
+<img src= "logo.png" class = "logo">
+
+
+<div class = "container">
+<form class= 'sign-up' action='/signup/' method='post'>
+
+	<h1>Sign Up</h1>
+
+	<section>
+	<label for="email" > Email</label>
+	<input type="email" name="email" id="email" placeholder='foo@bar.com' required>
+
+	<label for="password"> Password </label>
+	<input type="password" name="password" placeholder= "1234passw0rd" required>
+	</section>
+
+	<button type="submit">Sign Up</button>
+	<div class ="small">
+	<a href="/forgot-password/new" class="forgot">Forgot password?</a>
+	</div>
+	
+</form>
+</div>
+
+<p> Already have an account? <a href="/login">Log in</a> </p>
+
+</body>
+
+
+</html>
